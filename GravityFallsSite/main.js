@@ -4,7 +4,6 @@ fetch(chara)
     .then(response => response.json())
     .then(data => imprimirHTML(data.all_characters));
 
-
 function imprimirHTML(data) {
     data.forEach(character => {
         console.log(character);
