@@ -35,6 +35,8 @@ article {
 
 h1 {
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
