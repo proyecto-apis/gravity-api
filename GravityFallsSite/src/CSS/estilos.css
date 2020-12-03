@@ -77,3 +77,8 @@ iframe {
 .letra{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.video h1{
+  display: flex;
+  justify-content: center;
+}
