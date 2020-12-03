@@ -15,13 +15,12 @@ function imprimirHTML(data) {
         li.innerHTML = `
         <article>
             <div class="tarjeta">
-                
                 <div class="tarjeta-contenido">
                     <img src = "${Img}">
                     <div class="tarjeta-texto"> 
                         <h1>${Nombre}</h1>
                         <h3 class="letra">Sexo: ${Sexo}</h3>
-                        <h3 class="letra">Edad: ${Edad}</h3>
+                        <h3 class="letra">Edad: ${Edad} años</h3>
                         <h3 class="letra">Ocupación: ${Ocupación}</h3>
                     </div>
                 </div>
